@@ -10,10 +10,8 @@ import { Product, products } from '../products';
 export class ProductAlertsComponent implements OnInit {
   @Input() product!: Product;
   @Output() notify = new EventEmitter();
-  
-  constructor() { }
 
-  ngOnInit() {
-  }
+  constructor() {}
 
+  ngOnInit() {}
 }
